@@ -22,14 +22,12 @@ public class Client {
     @JsonIgnore
     private List<Ticket> tickets = new ArrayList<>();
 
-    // Constructors
     public Client() {}
 
     public Client(String name) {
         this.name = name;
     }
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

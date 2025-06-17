@@ -97,29 +97,7 @@ Run the application:
 
 mvn spring-boot:run
 
-
-
-Running Tests:
-
-
-
-
-
-Execute unit tests:
-
-mvn test
-
-API Endpoints
-
-
-
-
-
 Clients:
-
-
-
-
 
 GET /api/clients: List all clients
 
@@ -176,7 +154,3 @@ Notes
 
 
 The backend is configured to allow CORS requests from http://localhost:3000 (React frontend).
-
-
-
-Unit tests cover all service and controller methods.

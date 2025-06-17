@@ -26,7 +26,6 @@ public class Ticket {
     @Column(nullable = false)
     private String status;
 
-    // Constructors
     public Ticket() {}
 
     public Ticket(Client client, String category, String content, String status) {
@@ -36,7 +35,6 @@ public class Ticket {
         this.status = status;
     }
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
