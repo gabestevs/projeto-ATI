@@ -20,10 +20,6 @@ function ClientModal({ isOpen, onClose, client, mode, fetchClients }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!form.name.trim() || !form.email.trim()) {
-      setError("Nome e email são obrigatórios");
-      return;
-    }
     try {
       if (mode === "create") {
         await api.createClient(form);
